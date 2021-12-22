@@ -1,0 +1,544 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+a{
+    color: rgb(97, 97, 97);
+}
+.container { 
+    width: 1440px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: 'Montserrat', sans-serif;
+} 
+.header {
+    margin-bottom: 30px;
+}
+ul { 
+    margin-top: 50px; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    list-style-type: none; 
+}
+.mainfoot {
+    margin: 120px 0 0 0;
+}
+.text1 { 
+    position: relative; 
+    top: -450px; left: 230px; 
+    border: 1.5px solid white; 
+    padding: 10px; 
+    font-size: 24px; 
+    color: white; 
+    width: 260px; 
+    padding: 5px 30px 5px 30px; 
+   } 
+.text2 { 
+    position: relative; 
+    top: -450px; left: 230px; 
+    font-size: 45px; 
+    color: white; 
+} 
+.text3 { 
+    position: relative; 
+    top: -450px; left: 230px; 
+    border: 1px solid rgb(238, 238, 238); 
+    border-radius: 2px;
+    font-size: 16px; 
+    color: white; 
+    width: 270px; 
+    padding: 20px 100px 20px 100px; 
+    background-color: rgba(255, 255, 255, 0.253); 
+} 
+.tochka { 
+   z-index: 1; 
+}
+.container1 {
+    background-color: rgb(248, 248, 248);
+    width: 1440px;
+    height: -250px;
+    position: relative;
+    top: -268px;
+}
+.text4 {
+    position: relative;
+    left: 198px;
+    font-size: 30px;
+}
+.text5 {
+    position: relative;
+    left: 198px;
+    color: rgb(119, 119, 119);
+    font-size: 18px;
+}
+.container0 {
+    display: inline-block;
+    text-align: center;
+}
+.text6 {
+    position: relative;
+    left: 198px;
+    border: 1.5px solid rgb(189, 189, 189);
+    border-radius: 2px;
+    background-color: rgb(189, 189, 189);
+    color: white;
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 0 15px 0;
+}
+.text7 {
+    position: relative;
+    color: rgb(119, 119, 119);
+    border: 1.5px solid rgb(199, 199, 199);
+    border-radius: 2px;
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    padding: 15px 0 15px 0;
+    top: -50px; left: 450px; 
+}
+.picture1 {
+    position: relative;
+    top: -210px; left: 884px;
+}
+.picture1_1 {
+    position: relative;
+    top: -265px; left: 872px;
+}
+.text8 {
+    position: relative;
+    top: -300px; left: 940px;
+}
+.picture2 {
+    position: relative;
+    top: -260px; left: 885px;
+}
+.picture2_2 {
+    position: relative;
+    top: -315px; left: 872px;
+}
+.text9 {
+    position: relative;
+    top: -350px; left: 940px;
+}
+.picture3 {
+    position: relative;
+    top: -310px; left: 884px;
+}
+.picture3_3 {
+    position: relative;
+    top: -345px; left: 872px;
+}
+.text10 {
+    position: relative;
+    top: -400px; left: 940px;
+}
+.container2 {
+    background-color: rgb(255, 255, 255);
+    width: 1440px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+    top:-620px
+}
+.text11 {
+    position: relative;
+    left: 198px;
+    color: rgb(35, 35, 35);
+    font-size: 45px;
+}
+.circle1 {
+    position: relative;
+    top: -50px; left: 709px;
+}
+.left {
+    position: relative;
+    top: -90px; left: 722px;
+}
+.circle2 {
+position: relative;
+top: -123px; left: 780px;
+}
+.right {
+    position: relative;
+    top: -163px; left: 793px;
+}
+.line {
+    position: relative;
+    top: -180px; left: 870px;
+}
+.btn1 {
+position: absolute;
+width: 140px;
+height: 45px;
+left: 1150px;
+top: 45px;
+border: 1px solid #969696;
+box-sizing: border-box;
+border-radius: 2px;
+}
+.photo {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:-100px;
+}
+.text12 {
+    position: absolute;
+    top: 167px; 
+    color: white;
+    font-size: 14px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.356);
+    height: 30px;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+}
+.text13 {
+    position: absolute;
+    top: 167px; left: 490px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.356);
+    height: 30px;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+}
+.text14 {
+    position: absolute;
+    top: 167px; left: 980px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.356);
+    height: 30px;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+}
+.star {
+    position: absolute;
+    top: 330px;
+}
+.star1_1 {
+ position: absolute;
+ left: 185px;
+}
+.star1_2 {
+    position: absolute;
+    left: 207px; 
+}
+.star1_3 {
+    position: absolute;
+    left: 229px; 
+}
+.star1_4 {
+    position: absolute;
+    left: 251px; 
+}
+.star2_1 {
+    position: absolute;
+    left: 663px; 
+}
+.star2_2 {
+    position: absolute;
+    left: 685px; 
+}
+.star2_3 {
+    position: absolute;
+    left: 707px; 
+}
+.star2_4 {
+    position: absolute;
+    left: 729px; 
+}
+.star2_5 {
+    position: absolute;
+    left: 751px; 
+}
+.star3_1 {
+    position: absolute;
+    left: 1165px; 
+}
+.star3_2 {
+    position: absolute;
+    left: 1187px; 
+}
+.star3_3 {
+    position: absolute;
+    left: 1209px; 
+}
+.star3_4 {
+    position: absolute;
+    left: 1231px; 
+}
+.text15 {
+    position: absolute;
+    top: 390px; left: 130px;
+    color: white;
+    font-size: 20px;
+}
+.text16 {
+    position: absolute;
+    top: 390px; left: 650px;
+    color: white;
+    font-size: 20px;
+}
+.text17 {
+    position: absolute;
+    top: 390px; left: 1100px;
+    color: white;
+    font-size: 20px;
+}
+.container3 {
+    background-color: rgb(229, 229, 229);
+}
+.text18 {
+    position: absolute;
+    left: 150px;
+    font-size: 45px;
+}
+.line1 {
+    position: absolute;
+    top: 50px; left: 750px;
+}
+.card1_1 {
+    position: absolute;
+    top: 200px; left: 113px;
+    width: 327px;
+    height: 480px;
+    background-color: #F8F8F8;
+}
+.text19 {
+    position: absolute;
+    top: 265px; left: 50px;
+    font-size: 20px;
+}
+.text20 {
+    position: absolute;
+    top: 320px; left: 20px;
+    color: #848484;
+    font-size: 16px;
+}
+.line2 {
+    position: absolute;
+    top: 380px; left: 20px;
+}
+.txt1 {
+    position: absolute;
+    top: 415px; left: 20px;
+    color: #DD4053;
+    font-size: 16px;
+}
+.txt2 {
+    position: absolute;
+    top: 410px; left: 43px;
+    color: #DD4053;
+    font-size: 24px;
+}
+.txt3 {
+    position: absolute;
+    top: 432px; left: 20px;
+    color: #C9C9C9;
+    font-size: 12px;
+}
+.txt4 {
+    position: absolute;
+    top: 422px; left: 222px;
+    color: #3E3E3E;
+    font-size: 12px;
+}
+.card1_2 {
+    position: absolute;
+    top:200px; left: 515px;
+    width: 327px;
+    height: 480px;
+    background-color: #F8F8F8;
+}
+.card1_3 {
+    position: absolute;
+    top:200px; left: 913px;
+    width: 327px;
+    height: 480px;
+    background-color: #F8F8F8;
+}
+.txt5 {
+    position: absolute;
+    top: 10px; 
+    color: white;
+    font-size: 14px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.356);
+    height: 30px;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+}
+.formtable {
+    width: 1040px;
+    height: 140px;
+    margin: 100px 0 0 150px;
+    border-top: 6px solid #969696;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back {
+    width: 1040px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.labels {
+    width: 1040px;
+    padding: 0 0 0 30px;
+}
+.labelsinn {
+    width: 750px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #22222266;
+    display: flex;
+    justify-content: space-between;
+}
+.p1 {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+.p2 {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.btnserch {
+    width: 135px; 
+    height: 50px; 
+    background: #DD4053; 
+    border: none; 
+    color: #FFFFFF; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: 20px; 
+    letter-spacing: 0em; 
+    text-align: center; 
+}
+.where {
+    width: 213px;
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    color: gray;
+    border-radius: 0%;
+    border: 1.5px solid rgb(102, 102, 102);
+}
+.from {
+    width: 103px;
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    color: gray;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 0%;
+    border-color: rgb(99, 99, 99);
+}
+.tourists {
+    width: 135px;
+    height: 50px;
+    margin: 0;
+    border-radius: 0%;
+    text-align: center;
+    color: gray;
+    border: 1px solid black;
+}
+    
+.datefr {
+    width: 80px;
+    height: 20px;
+    height: 50px;
+    margin: 0;
+    border-radius: 0%;
+    text-align: center;
+    color: gray;
+    border: 1px solid rgb(44, 44, 44);
+    border-right: none;
+}
+.dateto {
+    width: 80px;
+    height: 50px;
+    margin: 0;
+    border-radius: 0%;
+    text-align: center;
+    color: gray;
+    border: 1px solid rgb(44, 44, 44);
+    border-left: none;
+}
+.nightsfr {
+    width: 80px;
+    text-align: center;
+    height: 50px;
+    margin: 0;
+    border-radius: 0%;
+    color: gray;
+    border: 1px solid rgb(44, 44, 44);
+    border-right: none;
+}
+.nightsto {
+    width: 80px;
+    text-align: center;
+    height: 50px;
+    margin: 0;
+    border-radius: 0%;
+    color: gray;
+    border: 1px solid rgb(44, 44, 44);
+    border-left: none;
+}
+
+footer { 
+    margin: 100px 0 0 0; 
+    width: 100%; 
+    height: 20px; 
+    display: flex; 
+    justify-content: center; 
+    margin: 50px auto 0 auto;
+} 
+.footer-inner { 
+    width: 1036px; 
+    border-top: 1px solid #3e3e3e7c; 
+    margin: 20px 250px 0 150px;
+} 
+.box1_1 {
+    position: absolute;
+    top: 2595px;
+    color: #3e3e3e7e;
+}
+.box2 { 
+    display: flex; 
+    justify-content: flex-end;
+    margin: 20px 0 0 0; 
+}
+.img1 {
+    margin-left: 15px;
+}
+.img2 {
+    margin-left: 15px;
+
+}
+.img3 {
+    margin-left: 15px;
+    
+}
